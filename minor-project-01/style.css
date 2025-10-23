@@ -19,6 +19,8 @@ body {
     padding-top: 0.1px;
 }
 
+/* navigation bar */
+
 #nav {
     height: 11vh;
     width: 100%;
@@ -69,6 +71,8 @@ body {
     position: relative;
 }
 
+/* hero section */
+
 #content {
     height: 100%;
     width: 100%;
@@ -102,9 +106,8 @@ body {
     color: #fff;
 }
 
-
 #over1 h2 {
-    font-size:2vw;
+    font-size: 2vw;
     font-weight: 100;
     color: #fff;
     padding: 2vw 2.2vw;
@@ -116,7 +119,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: 2px solid #FFF;
+    border-top: 2px solid #fff;
     padding: 1.5vw 0;
 }
 
@@ -124,8 +127,37 @@ body {
     font-size: 1.6vw;
     font-weight: 500;
     color: #fff;
-
 }
 #over2 img {
-   height: 3vw;
+    height: 3vw;
+}
+
+/* scroller */
+
+#scroll {
+    height: 40vh;
+    width: 100%;
+    background-color: red;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+
+#container{
+    height: 100%;
+    width: 110%;
+    background-color: blue;
+    display: inline-block;
+    padding: 2vw;
+   
+}
+
+#scroll img {
+    width: 15%;
+    height: 80%;
+    margin: 2vw ;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
 }
