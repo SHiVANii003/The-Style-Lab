@@ -137,27 +137,80 @@ body {
 #scroll {
     height: 40vh;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
     white-space: nowrap;
-    overflow-x: auto;
+    overflow-x: hidden;
     overflow-y: hidden;
 }
 
-
-#container{
+#container {
     height: 100%;
-    width: 110%;
-    background-color: blue;
+    width: 120%;
+    /* background-color: blue; */
     display: inline-block;
     padding: 2vw;
-   
+    animation-name: scrollAnim;
+    animation-duration: 11s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 #scroll img {
     width: 15%;
-    height: 80%;
-    margin: 2vw ;
+    height: 100%;
+    margin: 1vw;
     border-radius: 50%;
     object-fit: cover;
-    object-position: top;
+    object-position: 30;
+}
+
+@keyframes scrollAnim {
+    from {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+#alphabet {
+    height: 11vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+#alphabet h5 {
+    font-size: 1.7vw;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: italic;
+    border-bottom: 2px solid black;
+    letter-spacing: 3px;
+}
+
+#alphabet h6 {
+    font-size: 1vw;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: italic;
+    padding: 0.6vw 0.8vw;
+    border-radius: 50%;
+    border: 1px solid #00000000;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#alphabet h6:hover {
+    border: 2px solid #000;
+}
+
+#page2 {
+    height: 100vh;
+    width: 100%;
+    background-color: #dcdcdc;
 }
