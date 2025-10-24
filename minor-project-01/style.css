@@ -174,7 +174,7 @@ body {
 }
 
 #alphabet {
-    height: 11vh;
+    height: 10vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -182,6 +182,7 @@ body {
     gap: 1vw;
     border-top: 2px solid #000;
     border-bottom: 2px solid #000;
+    margin-top: 2vw;
 }
 
 #alphabet h5 {
@@ -212,5 +213,95 @@ body {
 #page2 {
     height: 100vh;
     width: 100%;
-    background-color: #dcdcdc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 5vw;
+}
+
+#page2-part1 {
+    height: 100%;
+    width: 50%;
+    background-image: url(https://i.pinimg.com/1200x/de/2f/4c/de2f4c6447e0e78ba6608fd22c435b78.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#page2-part2 {
+    height: 100%;
+    width: 46%;
+}
+
+#page2-part2 img {
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+#page2-part2 #text-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#page2-part2 #text-content h3 {
+    width: 48%;
+    font-size: 3.2vw;
+    font-weight: 600;
+    margin-top: 1vw;
+}
+
+#page2-part2 #text-content h4 {
+    width: 42%;
+    font-size: 2.5vw;
+    font-weight: 400;
+    margin-top: 1vw;
+}
+
+#page3 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 5vw;
+}
+
+#page3-part2 {
+    height: 100%;
+    width: 50%;
+    background-image: url(https://i.pinimg.com/1200x/de/2f/4c/de2f4c6447e0e78ba6608fd22c435b78.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#page3-part1 {
+    height: 100%;
+    width: 46%;
+}
+
+#page3-part1 img {
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+#page3-part1 #text-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#page3-part1 #text-content h3 {
+    width: 48%;
+    font-size: 3.2vw;
+    font-weight: 600;
+    margin-bottom: 1vw;
+}
+
+#page3-part1 #text-content h4 {
+    width: 42%;
+    font-size: 2.5vw;
+    font-weight: 400;
+    margin-bottom: 1vw;
 }
