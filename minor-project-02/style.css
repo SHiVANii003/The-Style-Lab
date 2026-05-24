@@ -68,5 +68,10 @@ body {
 #content {
     height: calc(100% - 120px);
     width: 100%;
-    background-color: green;
+    padding: 95px;
+}
+
+#content h3{
+    background-color: #E0D9E5;
+
 }
